@@ -1,0 +1,29 @@
+{
+  "title": "Welcome",
+  "updated": "2026-11-03",
+  "sections": [
+    {
+      "icon": "wifi",
+      "title": "Wi-Fi",
+      "items": [
+        { "label": "Network", "value": "Guest-WiFi" },
+        { "label": "Password", "value": "Change-me" }
+      ]
+    },
+    {
+      "icon": "tv",
+      "title": "TV and Sound",
+      "items": [
+        { "label": "Streaming", "value": "Use the Apple TV remote" },
+        { "label": "Soundbar", "value": "Input: TV/eARC" }
+      ]
+    },
+    {
+      "icon": "thermometer.sun",
+      "title": "Heating and Cooling",
+      "items": [
+        { "label": "Living room", "value": "Use the wall controller" }
+      ]
+    }
+  ]
+}

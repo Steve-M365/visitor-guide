@@ -1,0 +1,16 @@
+name: Validate guide
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node -e "JSON.parse(require('fs').readFileSync('guide.json','utf8')); console.log('guide.json is valid')"
